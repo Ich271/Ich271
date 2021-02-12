@@ -1,0 +1,45 @@
+name: NR1
+version: 1.0
+main: de.leander.nr1.NR1
+api-version: 1.16
+authors: [ Ich ]
+description: POMMES
+
+commands:
+  heal:
+    description: Heilt dich lol.
+    aliases: ["h"]
+  damage:
+    description: nimmt einen spieler hops
+    aliases: ["d"]
+  earrape:
+    description: TROLOLOLOLOLOL
+  bp:
+    description: Ein tragbares Inventar
+  setSpawn:
+    description: ne
+  Spawn:
+    description: doch
+  countdown:
+    description: zählt runter
+  ChatClear:
+    description: lies halt
+    aliases: cc
+  mute:
+    description: mutes a Player
+
+
+permissions:
+  de.leander.NR1.heal:
+    description: Heal
+    default: op
+  de.leander.NR1.damage:
+    description: damage
+    default: op
+  de.leander.NR1.earrape:
+    description: earrape
+    default: op
+  de.leander.NR1.Bp:
+    default: op
+  de.leander.mute:
+    default: op
